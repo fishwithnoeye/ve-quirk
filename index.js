@@ -1,5 +1,6 @@
-const submitBtn = document.getElementById('submitBtn');
-const textInput = document.getElementById('textInput').value;
+var submitBtn = document.getElementById('submitBtn');
+var resetBtn = document.getElementById('resetBtn');
+var textInput = document.getElementById('textInput').value;
 // ---- char elements ----
 let sova = document.getElementById('sova');
 let dismas = document.getElementById('dismas');
@@ -86,6 +87,21 @@ submitBtn.addEventListener("click", (e) => {
                 }]`;
         calder.textContent = textInput + '.';
         // ------------------------------------------- //
-        textInput.textContent = " ";
 
 });
+function reset(){
+    textInput.value = " ";
+    sova.textContent = " ";
+    dismas.textContent = " ";
+    arcjec.textContent = " ";
+    jentha.textContent = " ";
+    ellsee.textContent = " ";
+    albion.textContent = " ";
+    serpaz.textContent = " ";
+    laivan.textContent = " ";
+    occeus.textContent = " ";
+    taz.textContent = " ";
+    murrit.textContent = " ";
+    calder.textContent = " ";
+    
+};

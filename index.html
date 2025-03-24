@@ -10,10 +10,11 @@
         <!-- AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz.!? -->
         <div class="container">
             <h1>Vast Error Quirker</h1>
-            <p><i>Refresh to submit new text!</i></p>
+            <p><i>Type something, submit, reset, and then refresh!</i></p>
 
-            <input type="text" id="textInput" placeholder="Your text here..." value="Waltz, bad nymph, for quick jigs vex.">
-             <input id="submitBtn" type="submit" value="Submit">
+            <input type="text" id="textInput" placeholder="Your text here...">
+             <button id="submitBtn">Submit</button>
+             <button id="resetBtn" onclick="reset()">Reset</button>
             <hr>
             <div class="quirks">
                 <div id="sovaText">
