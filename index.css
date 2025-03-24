@@ -1,0 +1,89 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #c4c4c4;
+    font-weight: bold;
+}
+#textInput{
+    width: 45%;
+    height: 7%;
+    border: none;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+input[type="submit"], input[type="reset"]{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 5%;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: #eeeeee;
+}
+input[type="submit"]:active, input[type="reset"]:active{
+    background-color: #dddddd;
+}
+
+#sovaText, #dismasText, #arcjecText, #jenthaText, #ellseeText, 
+#albionText, #serpazText, #laivanText, #occeusText, #tazText, 
+#murritText, #calderText{
+    margin: 1% 0%;
+    padding: 10px 15px;
+    border: 2px black solid;
+    border-radius: 7px;
+}
+#sova{
+    font-style: italic;
+    color: #7F0000;
+}
+#dismas{
+    color: #C44000;
+}
+#arcjec{
+    color: #B95C00;
+}
+#jentha{
+    color: #B49E18;
+}
+#ellsee{
+    color: #6C8400;
+}
+#albion{
+    color: #407D00;
+}
+#serpaz{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #00A596;
+}
+#laivan{
+    color: #004696;
+}
+#occeus{
+    color: #00007F;
+}
+#taz{
+    color: #39017F;
+}
+#murrit{
+    color: #510049;
+}
+#calder{
+    color: #A00078;
+}
+#calder::first-letter, #occeus::first-letter, #laivan::first-letter, #dismas::first-letter, #ellsee::first-letter{
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 391px){
+    input{
+        width: 100%;
+    }
+    button{
+        width: 20%;
+        margin: 1% 0%;
+    }
+}
