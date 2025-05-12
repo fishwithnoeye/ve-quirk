@@ -1,6 +1,6 @@
 var submitBtn = document.getElementById('submitBtn');
 var resetBtn = document.getElementById('resetBtn');
-var textInput = document.getElementById('textInput').value;
+
 // ---- char elements ----
 let sova = document.getElementById('sova');
 let dismas = document.getElementById('dismas');
@@ -16,6 +16,7 @@ let murrit = document.getElementById('murrit');
 let calder = document.getElementById('calder');
 // function
 submitBtn.addEventListener("click", (e) => {
+        var textInput = document.getElementById('textInput').value;
         sova.textContent = `(${textInput.toLowerCase()
             .replaceAll(":)", "o^o")})`
         dismas.textContent =
